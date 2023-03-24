@@ -14,8 +14,11 @@ public class WeatherTask {
         if(weather.toLowerCase().equals("sunny") && temperature > 8){
             System.out.println("short sleeve and shorts");
         }
-        if(weather.toLowerCase().equals("sunny") && temperature < 8){
+        if(weather.toLowerCase().equals("sunny") && temperature < 8) {
             System.out.println("Sunglasses and a coat");
+        }
+        if(weather.toLowerCase().equals("rainy")){
+            System.out.println("Bring an umbrella");
         }
     }
 }
